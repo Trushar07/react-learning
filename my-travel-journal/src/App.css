@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f55a5a;
+  padding: 10px 20px;
+  box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001a;
+}
+
+.navbar img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.navbar h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  flex: 0 0 auto;
+}
+
+.card--image {
+  height: 168px;
+  width: 125px;
+  left: 40px;
+  top: 100px;
+  border-radius: 5px;
+}
+
+.card--location--logo {
+  height: 24px;
+  width: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card--location {
+  position: absolute;
+  letter-spacing: 2px;
+  padding-top: 4px;
+  font-weight: normal;
+}
+
+.card--details > a {
+  position: absolute;
+  padding-top: 4px;
+  padding-left: 120px;
+  font-weight: lighter;
+  color: #007bff;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+.card--details > a:hover {
+  color: #0056b3;
+}
+
+.card--details > h1 {
+  position: absolute;
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.card--date {
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 60px;
+  font-size: 15px;
+}
+
+.card--description {
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 100px;
+  font-size: 14px;
+  font-style: normal;
+}

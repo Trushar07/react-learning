@@ -1,0 +1,3 @@
+In React, Context is a feature that allows data to be passed down through the component tree without the need for props to be passed manually at every level. It provides a way to share data between components that are not directly related, without having to pass props through every intermediate component.
+
+Context consists of two parts: a Provider component and a Consumer component. The Provider component is used to wrap a part of the component tree and provide data to all the child components. The Consumer component is used to access the data provided by the Provider component from any level of the component tree.
